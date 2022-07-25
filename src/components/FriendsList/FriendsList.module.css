@@ -1,0 +1,14 @@
+.friendList {
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+  list-style: none;
+  width: 400px;
+  display: block;
+  justify-content: space-around;
+  padding-inline-start: 0;
+  font-weight: 500;
+  background-color: rgb(247, 247, 247);
+  margin: auto;
+  padding-top: 20px;
+}

@@ -1,0 +1,25 @@
+.transactionHistory {
+  width: 400px;
+  outline: 1px solid #a89999;
+  margin-bottom: 20px;
+}
+.transactionRow {
+  background-color: blueviolet;
+  color: #ffffff;
+  font-size: 20px;
+  height: 60px;
+}
+.tableRow:nth-child(2n) {
+  background-color: rgb(219, 217, 217);
+}
+.tableRow {
+  color: #333131;
+  background-color: #fff6f6;
+  font-size: 12px;
+  text-align: center;
+}
+
+.transactionHead,
+.transactionData {
+  width: 33.33%;
+}

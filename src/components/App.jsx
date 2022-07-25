@@ -9,20 +9,17 @@ import { FriendList } from './FriendsList/FriendsList';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 export const App = () => {
   return (
-    //  <div
-    //    style={{np
-    //      height: '100vh',
-    //      display: 'flex',
-    //      justifyContent: 'center',
-    //      alignItems: 'center',
-    //      fontSize: 40,
-    //      color: '#010101'
-    //    }}
-    //  >
-    //    React homework template
-    //  </div>
-
-    <div>
+    <div
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 40,
+        color: '#010101',
+        flexDirection: 'column',
+        backgroundColor: '#80808045',
+      }}
+    >
       <Profile
         key={user.username}
         username={user.username}
@@ -42,8 +39,8 @@ export const App = () => {
           //  percentage={data.percentage}
         />
       </Section>
-      <FriendList friends={friends} />;
-      <TransactionHistory items={transactions} />;
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
